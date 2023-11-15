@@ -28,5 +28,8 @@ public class MainClass {
         System.out.println();
         System.out.print("Post-Order Traversal: ");
         postOrder(root);
+        System.out.println();
+        System.out.print("Post-Order Traversal non recursive: ");
+        postOrderNonRecursive(root);
     }
 }
